@@ -1,0 +1,5 @@
+<launch>
+  <machine name="mymachine" address="ros-device" env-loader="/opt/ros/kinetic/ros-env.sh" user="stanleylin" password="stanleylin" />
+  <node pkg="roslaunch_demo" type="listener.py" name="listener" output="screen" />
+  <node pkg="roslaunch_demo" type="talker.py" name="talker" machine="mymachine" />
+</launch>
