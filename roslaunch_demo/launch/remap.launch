@@ -1,0 +1,6 @@
+<launch>
+  <remap from="chatter1" to="chatter2" />
+  <node pkg="roslaunch_demo" type="listener_chatter1.py" name="listener" output="screen" />
+  <node pkg="roslaunch_demo" type="talker_chatter2.py" name="talker" output="screen" />
+</launch>
+

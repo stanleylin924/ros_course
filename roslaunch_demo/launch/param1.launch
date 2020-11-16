@@ -1,0 +1,5 @@
+<launch>
+  <param name="myparam" value="Hello World!" />
+  <node pkg="roslaunch_demo" type="checkparam1.py" name="checkparam1" output="screen" />
+</launch>
+

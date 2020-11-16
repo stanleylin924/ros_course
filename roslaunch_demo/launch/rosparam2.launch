@@ -1,0 +1,6 @@
+<launch>
+  <rosparam param="myparam1">Hello</rosparam>
+  <rosparam param="myparam2" subst_value="true">$(env ROS_DISTRO)</rosparam>
+  <node pkg="roslaunch_demo" type="checkparam3.py" name="checkparam3" output="screen" />
+</launch>
+

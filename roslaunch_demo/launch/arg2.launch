@@ -1,0 +1,6 @@
+<launch>
+  <include file="arg1.launch">
+    <arg name="myarg2" value="ROS" />
+  </include>
+</launch>
+

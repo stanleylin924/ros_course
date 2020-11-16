@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="roslaunch_demo" type="node_output.py" name="node_output" output="screen" />
+</launch>

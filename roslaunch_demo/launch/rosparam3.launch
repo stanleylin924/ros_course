@@ -1,0 +1,8 @@
+<launch>
+  <rosparam>
+    myparam1: Hello
+    myparam2: World
+  </rosparam>
+  <node pkg="roslaunch_demo" type="checkparam3.py" name="checkparam3" output="screen" />
+</launch>
+

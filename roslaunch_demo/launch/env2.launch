@@ -1,0 +1,8 @@
+<launch>
+  <env name="MY_ENV_TEST" value="This is a test!" />
+  <node pkg="roslaunch_demo" type="checkenv.py" name="checkenv" output="screen">
+    <env name="MY_ENV_TEST" value="Hello World!" />
+  </node>
+  <node pkg="roslaunch_demo" type="checkenv.py" name="checkenv2" output="screen" />
+</launch>
+

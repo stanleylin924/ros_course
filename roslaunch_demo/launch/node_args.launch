@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="roslaunch_demo" type="node_args.py" name="node_args" output="screen" args="hello world !" />
+</launch>

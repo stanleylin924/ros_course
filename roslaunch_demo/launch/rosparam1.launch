@@ -1,0 +1,5 @@
+<launch>
+  <rosparam command="load" file="$(find roslaunch_demo)/launch/myparam.yaml" />
+  <node pkg="roslaunch_demo" type="checkparam3.py" name="checkparam3" output="screen" />
+</launch>
+

@@ -1,0 +1,6 @@
+<launch>
+  <arg name="myarg1" value="Hello" />
+  <arg name="myarg2" default="World" />
+  <node pkg="roslaunch_demo" type="checkargs.py" name="checkargs" output="screen" args="$(arg myarg1) $(arg myarg2)" />
+</launch>
+
